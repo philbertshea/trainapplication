@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16sp"
+    tools:context=".SelectEndActivity"
+    >
+
+    <TextView
+        android:id="@+id/tvFromStation"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginTop="30sp"
+        android:text="Settings"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:gravity="center|bottom"
+        />
+
+
+    <TextView
+        android:id="@+id/tvStopsAway"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="Notify: 0 Stops Away"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:gravity="left|bottom"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slStopsAway"
+            android:layout_width="250dp"
+            android:layout_height="50sp"
+            android:valueFrom="0"
+            android:valueTo="10" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvReaching"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="Reaching: 0 metres Away"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:gravity="left|bottom"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slReaching"
+            android:layout_width="250dp"
+            android:layout_height="50sp"
+            android:valueFrom="0"
+            android:valueTo="1000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvReached"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="Reached: 0 metres Away"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:gravity="left|bottom"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slReached"
+            android:layout_width="250dp"
+            android:layout_height="50sp"
+            android:valueFrom="0"
+            android:valueTo="500" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="Back to App"
+        android:textSize="30sp" />
+</LinearLayout>

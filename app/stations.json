@@ -1,0 +1,17 @@
+{
+  "stations": [
+    {
+      "name": "Pasir Ris",
+      "code": "EW1",
+      "latitude": "1.37329663517479",
+      "longitude": "103.94956640677879"
+    },
+    {
+      "name": "Tampines",
+      "code": "EW2",
+      "latitude": "1.3536609558604389",
+      "longitude": "103.94495522876534"
+    }
+
+  ]
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "name": "EW",
+    "stations": [
+      {
+        "name": "Pasir Ris",
+        "code": "1",
+        "latitude": "1.37329663517479",
+        "longitude": "103.94956640677879"
+      },
+      {
+        "name": "Tampines",
+        "code": "2",
+        "latitude": "1.3536609558604389",
+        "longitude": "103.94495522876534"
+      },
+      {
+        "name": "Simei",
+        "code": "3",
+        "latitude": "1.3434025908245337",
+        "longitude": "103.9534113073149"
+      },
+      {
+        "name": "Tanah Merah",
+        "code": "4",
+        "latitude": "1.3276140105466425",
+        "longitude": "103.94641610074667"
+      },
+      {
+        "name": "Bedok",
+        "code": "5",
+        "latitude": "1.3243104398521297",
+        "longitude": "103.92959328752131"
+      },
+      {
+        "name": "Kembangan",
+        "code": "6",
+        "latitude": "1.3216876507235604",
+        "longitude": "103.91287547399071"
+      },
+      {
+        "name": "Eunos",
+        "code": "7",
+        "latitude": "1.3203710457725548",
+        "longitude": "103.9031840268892"
+      },
+      {
+        "name": "Paya Lebar",
+        "code": "8",
+        "latitude": "1.3186337298468045",
+        "longitude": "103.8930135108484"
+      },
+      {
+        "name": "Aljunied",
+        "code": "9",
+        "latitude": "1.3168451328474402",
+        "longitude": "103.88268690216132"
+      },
+      {
+        "name": "Kallang",
+        "code": "10",
+        "latitude": "1.3119111856074621",
+        "longitude": "103.87114258914046"
+      },
+      {
+        "name": "Lavender",
+        "code": "11",
+        "latitude": "1.3078352809216611",
+        "longitude": "103.86303166629408"
+      },
+      {
+        "name": "Bugis",
+        "code": "12",
+        "latitude": "1.3004777638990033",
+        "longitude": "103.85620959809964"
+      },
+      {
+        "name": "City Hall",
+        "code":  "13",
+        "latitude": "1.2931820440129689",
+        "longitude": "103.85203176830878"
+      },
+      {
+        "name": "Raffles Place",
+        "code": "14",
+        "latitude": "1.3004777638990033",
+        "longitude": "103.85620959809964"
+      },
+      {
+        "name": "Tanjong Pagar",
+        "code": "15",
+        "latitude": "1.2766349808341406",
+        "longitude": "103.8458077198836"
+      },
+      {
+        "name": "Outram Park",
+        "code": "16",
+        "latitude": "1.2814893459527248",
+        "longitude": "103.8391246521847"
+      },
+      {
+        "name": "Tiong Bahru",
+        "code": "17",
+        "latitude": "1.2859708700385708",
+        "longitude": "103.82701082977735"
+      },
+      {
+        "name": "Redhill",
+        "code": "18",
+        "latitude": "1.289510463293564",
+        "longitude": "103.81696871793413"
+      },
+      {
+        "name": "Queenstown",
+        "code": "19",
+        "latitude": "1.2944337082678552",
+        "longitude": "103.80602539495239"
+      },
+      {
+        "name": "Commonwealth",
+        "code": "20",
+        "latitude": "1.302558934194668",
+        "longitude": "103.7982756253892"
+      }
+    ]
+  },
+  {
+    "name": "DT",
+    "stations": [
+      {
+        "name": "Macpherson",
+        "code": "1",
+        "latitude": "1.327078264121756",
+        "longitude": "103.89011334825692"
+      },
+      {
+        "name": "Ubi",
+        "code": "2",
+        "latitude": "1.3302966873664357",
+        "longitude": "103.89910193324948"
+      },
+      {
+        "name": "Kaki Bukit",
+        "code": "3",
+        "latitude": "1.335540443696792",
+        "longitude": "103.90890787520215"
+      },
+      {
+        "name": "Bedok North",
+        "code": "4",
+        "latitude": "1.3356495156792507",
+        "longitude": "103.9180422196166"
+      },
+      {
+        "name": "Bedok Reservoir",
+        "code": "5",
+        "latitude": "1.3370700431607139",
+        "longitude": "103.93222526352208"
+      },
+      {
+        "name": "Tampines West",
+        "code": "6",
+        "latitude": "1.3459109634373876",
+        "longitude": "103.93833581292033"
+      },
+      {
+        "name": "Tampines",
+        "code": "7",
+        "latitude": "1.353686881803791",
+        "longitude": "103.94533841310967"
+      },
+      {
+        "name": "Tampines East",
+        "code": "8",
+        "latitude": "1.3560263280092295",
+        "longitude": "103.9553589886067"
+      },
+      {
+        "name": "Upper Changi",
+        "code": "9",
+        "latitude": "1.3421659446658791",
+        "longitude": "103.96153918182559"
+      },
+      {
+        "name": "Expo",
+        "code": "10",
+        "latitude": "1.3347421666460413",
+        "longitude": "103.96153426632078"
+      }
+    ]
+  }
+]

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16sp"
+    tools:context=".SelectStartActivity"
+    >
+
+    <TextView
+        android:id="@+id/tvSelectLoc"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="30sp"
+        android:text="Select current station"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:gravity="center|bottom"
+        />
+
+    <Button
+        android:id="@+id/btnRefreshLocation"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:padding="1sp"
+        android:text="Refresh Location"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/txtOrange"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnResult1"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_marginTop="30sp"
+        android:text="Result1"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/btnGreen"
+        android:gravity="center"
+         />
+
+    <Button
+        android:id="@+id/btnResult2"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_marginTop="10sp"
+        android:text="Result2"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/btnGreen"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnResult3"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_marginTop="10sp"
+        android:text="Result3"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/btnGreen"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnResult4"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_marginTop="10sp"
+        android:text="Result4"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/btnGreen"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnResult5"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_marginTop="10sp"
+        android:text="Result5"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/btnGreen"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginTop="30sp"
+        android:text="Settings"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/teal_200"
+        android:gravity="center|bottom"
+        />
+
+</LinearLayout>
